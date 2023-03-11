@@ -8,5 +8,6 @@ hold on
 x=linspace(0,30,100);
 y=interp1(xi,yi,x,'spline');
 plot(x,y,'-*')
-xlabel('x')
-ylabel('y')
+ xlabel('x','FontSize',20)
+  ylabel('y','FontSize',20)
+title('spline ²åÖµ','FontSize',30)

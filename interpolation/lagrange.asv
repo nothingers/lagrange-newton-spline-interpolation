@@ -18,9 +18,10 @@ hold on
     Ln=Ln+yi(i)*ln;
   end
   plot(x,Ln,'-*')
-  xlabel('x','FontSize',20)
-  ylabel('y','FontSize',20)
-title('lagrange ²åÖµ','FontSize',30)
+  xlabel('x')
+  ylabel('y')
+  txt = '';
+text(pi,sin(pi),txt,'HorizontalAlignment','right')
 
 
 

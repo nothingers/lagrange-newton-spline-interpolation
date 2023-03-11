@@ -39,5 +39,6 @@ end
 % 画出Nn与x的图像
 
 plot(x,Nn,'-*')
-xlabel('x')
-ylabel('y')
+ xlabel('x','FontSize',20)
+  ylabel('y','FontSize',20)
+title('newton 插值','FontSize',30)
